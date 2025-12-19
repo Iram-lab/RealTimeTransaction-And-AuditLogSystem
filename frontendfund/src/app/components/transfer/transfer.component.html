@@ -1,0 +1,17 @@
+<div class="app-container">
+  <h1 class="title">Transaction & Audit Log System</h1>
+
+  <nav class="navbar">
+    <a routerLink="/" routerLinkActive="active">Transfer</a>
+    <a routerLink="/history" routerLinkActive="active">History</a>
+  </nav>
+</div>
+
+<div class="transfer-container">
+  <h2>Transfer Money</h2>
+  <form (ngSubmit)="sendMoney()">
+    <input type="number" placeholder="Receiver ID" [(ngModel)]="receiverId" name="receiverId" required />
+    <input type="number" placeholder="Amount" [(ngModel)]="amount" name="amount" required />
+    <button type="submit">Send</button>
+  </form>
+</div>

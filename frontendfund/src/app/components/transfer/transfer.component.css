@@ -1,0 +1,102 @@
+/* Page background */
+:host {
+  display: block;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* App header */
+.app-container {
+  text-align: center;
+  padding: 25px 0;
+  color: #ffffff;
+}
+
+/* Title */
+.title {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.navbar a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.navbar a.active {
+  background: #ffffff;
+  color: #667eea;
+}
+
+/* Transfer card */
+.transfer-container {
+  background: #ffffff;
+  padding: 30px 35px;
+  width: 320px;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Heading */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #667eea;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .transfer-container {
+    width: 90%;
+  }
+}

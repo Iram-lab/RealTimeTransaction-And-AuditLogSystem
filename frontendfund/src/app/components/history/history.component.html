@@ -1,0 +1,23 @@
+<div class="history-container">
+  <h2>Transaction History</h2>
+
+  <table>
+    <tr>
+      <th (click)="sort('id')">ID ⬍</th>
+      <th (click)="sort('senderId')">Sender ID ⬍</th>
+      <th (click)="sort('receiverId')">Receiver ID ⬍</th>
+      <th (click)="sort('amount')">Amount ⬍</th>
+      <th (click)="sort('status')">Status ⬍</th>
+      <th (click)="sort('timestamp')">Timestamp ⬍</th>
+    </tr>
+
+    <tr *ngFor="let t of transactions">
+      <td>{{ t.id }}</td>
+      <td>{{ t.senderId }}</td>
+      <td>{{ t.receiverId }}</td>
+      <td>{{ t.amount }}</td>
+      <td>{{ t.status }}</td>
+      <td>{{ t.timestamp }}</td>
+    </tr>
+  </table>
+</div>

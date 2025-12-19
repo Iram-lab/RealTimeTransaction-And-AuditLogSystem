@@ -1,0 +1,13 @@
+<div class="login-container">
+  <h2>Login</h2>
+
+  <input type="text" placeholder="Username" [(ngModel)]="username">
+  <input type="password" placeholder="Password" [(ngModel)]="password">
+
+  <button (click)="login()">Login</button>
+
+  <p>
+    Don't have an account?
+    <a (click)="goToSignup()">Create account</a>
+  </p>
+</div>
