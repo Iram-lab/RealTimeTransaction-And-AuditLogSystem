@@ -196,14 +196,14 @@ Create a database (e.g., transaction_db).
 
 ### Backend (Spring Boot) Setup
 
-[1] Clone / Download the Repository
+**1. Clone / Download the Repository**
 
 git clone https://github.com/Iram-lab/RealTimeTransaction-And-AuditLogSystem.git
 
 cd backend
 
 
-[2] Configure MySQL Database
+**2. Configure MySQL Database**
 
 Open src/main/resources/application.properties.
 
@@ -218,7 +218,7 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
 
 
-[3] Build & Run the Application
+**3. Build & Run the Application**
 
 Using Maven (from project root):
 
@@ -234,27 +234,25 @@ Verify Backend Running
 
 By default, Spring Boot runs on http://localhost:8080.
 
-[4]Test with Postman or browser:
+**4. Test with Postman or browser:**
 
 GET http://localhost:8080/actuator/health
 
 ### Frontend
 
-[1] Navigate to Angular project folder
-[2] Run:
+**1. Navigate to Angular project folder**
+cd frontendfund
+**2. Run:**
 
 ```bash
 npm install
 ng serve
 ```
 
-[3] Open browser at `http://localhost:4200`
+**3. Open browser at `http://localhost:4200`**
 
 ---
 
-3. Open browser at `http://localhost:4200`
-
----
 
 ## Demo Video (Mandatory)
 
@@ -324,5 +322,5 @@ This project demonstrates a complete **full-stack transaction system** with real
 
 ---
 
-**Developed for academic and learning purposes**
+
 
