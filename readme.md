@@ -310,11 +310,11 @@ https://drive.google.com/file/d/1lvaue0OcNCQJ-Kz2Y0eWOSId4Gnn69vs/view?usp=drive
 
 ## Evaluation Criteria Coverage
 
-- RESTful API design with JWT security ✔
-- Atomic transactions and audit logging ✔
-- Clean, responsive frontend UI ✔
-- Proper code structure and logging ✔
-- Complete documentation & AI usage log ✔
+- RESTful API design with JWT security 
+- Atomic transactions and audit logging 
+- Clean, responsive frontend UI 
+- Proper code structure and logging 
+- Complete documentation & AI usage log 
 
 ---
 
