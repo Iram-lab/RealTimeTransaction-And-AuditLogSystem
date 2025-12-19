@@ -241,7 +241,9 @@ GET http://localhost:8080/actuator/health
 ### Frontend
 
 **1. Navigate to Angular project folder**
+
 cd frontendfund
+
 **2. Run:**
 
 ```bash
