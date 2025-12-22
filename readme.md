@@ -12,7 +12,7 @@ The system is built with a **Spring Boot backend**, **Angular frontend**, and **
 
 ### Backend
 
-- Java 17
+- Java 21
 - Spring Boot
 - Spring Data JPA
 - Spring Security (JWT Authentication)
@@ -155,14 +155,14 @@ Request:
 
 ### Before running the project, ensure the following software is installed:
 
-Java Development Kit (JDK) 17
+Java Development Kit (JDK) 21
 
 Verify installation:
 
 java -version
 
 
-### Should display java version "17.x.x".
+### Should display java version "21.x.x".
 
 Node.js & npm
 
